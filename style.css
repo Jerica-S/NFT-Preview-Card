@@ -18,17 +18,23 @@ h1 {
     color: #FFFFFF;
     font-family: Outfit-Regular;
     text-decoration:none;
-
+    font-size: 120%;
 }
 
 p {
     color:#9BB2D6;
     font-family: Outfit-Regular;
+    margin: 3% 0% 5% 0%;
 }
 
 span {
     color: hsl(178, 100%, 50%);
     font-family: Outfit-Regular;
+}
+
+hr {
+    margin: 5%;
+    color: #293B53;
 }
 
 a:link{
@@ -52,8 +58,27 @@ a:active{
     color:#FFFFFF;
 }
 
+#card-container {
+    background-color: #15273F;
+    border-radius: 3% 5% 3% 5%;
+    display: flex;
+    padding:1%;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    height: 25%;
+    box-shadow: 0 0 4% #000000;
+}
 #name {
     color:#FFFFFF;
+}
+
+#nft {
+    border-radius: 3% 5% 3% 5%;
+}
+
+#nft:hover {
+     url();
 }
 
 .info {
