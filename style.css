@@ -12,6 +12,8 @@ body {
     background-color: #0D1A2D;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -33,6 +35,7 @@ p {
 span {
     color: hsl(178, 100%, 50%);
     font-family: Outfit-Regular;
+    font-size: 90%;
 }
 
 strong {
@@ -66,10 +69,12 @@ a:active{
 }
 
 #artist {
-    width: 20%;
-    height: 40%;
-    border: 1px;
-    border: 2px solid #FFF;
+    width: 10%;
+    height: 80%;
+    border-radius: 100%;
+    border: 1px solid #FFF;
+    margin-right: 5%;
+    align-items: center;
 }
 
 #card-container {
@@ -77,19 +82,11 @@ a:active{
     border-radius: 3% 5% 3% 5%;
     display: flex;
     padding:1%;
+    margin: 10%;
     flex-direction: column;
-    justify-content: center;
     width: 15%;
     height: 20%;
     box-shadow: 0 0 4% #000000;
-    margin: auto;
-    padding: auto;
-}
-
-#eth {
-    height: 3%;
-    width: 3%;
-    margin: 1%;
 }
 
 #name {
@@ -97,12 +94,26 @@ a:active{
 }
 
 #nft {
+    width:100%;
+    height:100%;
     border-radius: 3% 5% 3% 5%;
+    transition: 0.5;
 }
+
+#nft:hover{
+    background-color:hsl(178, 100%, 50%);
+    mix-blend-mode: screen;
+}
+
 
 .info {
     color:#9BB2D6;
-    margin-left: 10%;
+    margin-left: 30%;
+}
+
+.creator {
+    color:#9BB2D6;
+    vertical-align: middle;
 }
 
 .attribution {

@@ -1,6 +1,6 @@
 <!-- 
     Challenge by Frontend Mentor
-    Coded by Jerica Smith 
+    Coded by Jerica S.
  -->
 
 <!DOCTYPE html>
@@ -18,23 +18,36 @@
 
 <!-- BODY SECTION -->
 <body>
+<!-- IMAGE PORTION OF CARD -->
   <div id="card-container">
-    <!-- <img id="eye" src="images\icon-view.svg"> -->
-    <img id="nft" src="images\image-equilibrium.jpg" alt="A picture of the Equilibrium NFT. It is a floating cube."
-      title="Equilibrium NFT">
-    <h1><a href="#">Equilibrium #3429</a></h1>
+    <div id="nft-image">
+      <img id="nft" src="images\image-equilibrium.jpg" alt="A picture of the Equilibrium NFT. It is a floating cube." title="Equilibrium NFT">
+    </div>
 
+<!-- TITLE & DESCRIPTION PORTION OF CARD -->
+    <h1><a href="#">Equilibrium #3429</a></h1>
     <p>Our Equilibrium collection promotes balance and calm.</p>
 
-    <span>
-      <img id="eth" alt="Ethereum Symbol" title="Ethereum" src="images\icon-ethereum.svg"><strong>0.041 ETH</strong><span class="info"><img
-        src="images\icon-clock.svg"> 3 days left</span>
-    </span>
-
+<!--INFO PORTION OF CARD -->
+    <div>
+      <span>
+        <strong><img id="eth" alt="Ethereum Symbol" title="Ethereum" src="images\icon-ethereum.svg"> 0.041 ETH</strong>
+      </span>
+      <span class="info">
+        <img src="images\icon-clock.svg"> 3 days left
+      </span>
+    </div>
     <hr>
-    <span class=info><img id="artist" src="images\image-avatar.png" alt="A picture of Jules Wyvern" title="Jules Wyvern">Creation of
-      <a href src="#">Jules Wyvern</a></span>
+
+<!-- ARTIST PORTION OF CARD  -->
+    <span class="creator">
+      <img id="artist" src="images\image-avatar.png" alt="A picture of Jules Wyvern" title="Jules Wyvern"> Creation of
+      <a href src="#">Jules Wyvern</a>
+    </span>
   </div>
+
+<!-- ATTRIBUTION -->
+  <br> 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Jerica Smith</a>.
