@@ -110,8 +110,8 @@ strong {
 
 }
 
-#nft:hover {
-    mix-blend-mode: screen;
+#nft-image:hover #eye{
+    display: block;
 }
 
 .attribution {
