@@ -16,37 +16,6 @@ body {
     align-items: center;
 }
 
-h1 {
-    color: #FFFFFF;
-    font-family: Outfit-Regular;
-    text-decoration:none;
-    font-size: 120%;
-    margin-top: 7%;
-}
-
-p {
-    color:#9BB2D6;
-    font-family: Outfit-Regular;
-    font-size: 90%;
-    margin: 7% 0% 7% 0%;
-    line-height: 150%;
-}
-
-span {
-    color: hsl(178, 100%, 50%);
-    font-family: Outfit-Regular;
-    font-size: 90%;
-}
-
-strong {
-    font-size: 80%;
-}
-
-hr {
-    margin: 5%;
-    color: #293B53;
-}
-
 a:link{
     text-decoration: none;
     color:#FFFFFF;
@@ -68,6 +37,38 @@ a:active{
     color:#FFFFFF;
 }
 
+h1 {
+    color: #FFFFFF;
+    font-family: Outfit-Regular;
+    text-decoration:none;
+    font-size: 120%;
+    margin-top: 7%;
+}
+
+hr {
+    margin: 5%;
+    color: #293B53;
+}
+
+p {
+    color:#9BB2D6;
+    font-family: Outfit-Regular;
+    font-size: 90%;
+    margin: 7% 0% 7% 0%;
+    line-height: 150%;
+}
+
+span {
+    color: hsl(178, 100%, 50%);
+    font-family: Outfit-Regular;
+    font-size: 90%;
+}
+
+strong {
+    font-size: 80%;
+}
+
+
 #artist {
     width: 10%;
     height: 80%;
@@ -79,14 +80,21 @@ a:active{
 
 #card-container {
     background-color: #15273F;
-    border-radius: 3% 5% 3% 5%;
+    border-radius: 3% 5%;
     display: flex;
     padding:1%;
     margin: 10%;
     flex-direction: column;
     width: 15%;
     height: 20%;
-    box-shadow: 0 0 4% #000000;
+    box-shadow: 0px 0px 50px #0C1729;
+}
+
+#eye {
+    display: none;
+    position: absolute;
+    top:270px;
+    left:775px;
 }
 
 #name {
@@ -96,24 +104,16 @@ a:active{
 #nft {
     width:100%;
     height:100%;
-    border-radius: 3% 5% 3% 5%;
-    transition: 0.5;
+    border-radius: 3% 5%;
+    background-color:rgba(183, 255, 255, 0.226);
 }
 
-#nft:hover{
-    background-color:hsl(178, 100%, 50%);
+#testing:hover {
     mix-blend-mode: screen;
 }
 
-
-.info {
-    color:#9BB2D6;
-    margin-left: 30%;
-}
-
-.creator {
-    color:#9BB2D6;
-    vertical-align: middle;
+#nft-image:hover #eye{
+    display: block;
 }
 
 .attribution {
@@ -123,4 +123,14 @@ a:active{
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+.creator {
+    color:#9BB2D6;
+    display: flex;
+}
+
+.info {
+    color:#9BB2D6;
+    margin-left: 30%;
 }
