@@ -91,7 +91,7 @@ strong {
 }
 
 #eye {
-    display:none;
+    display: none;
     position: absolute;
     top:270px;
     left:775px;
@@ -104,10 +104,12 @@ strong {
 #nft {
     width:100%;
     height:100%;
-    border-radius: 3% 5% 3% 5%;
-    transition: 0.5;
-    position: static;
+    border-radius: 3% 5%;
+    background-color:rgba(183, 255, 255, 0.226);
+}
 
+#testing:hover {
+    mix-blend-mode: screen;
 }
 
 #nft-image:hover #eye{
